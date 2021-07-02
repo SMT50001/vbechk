@@ -121,7 +121,7 @@ error_vbe_not_supported db "Error: VBE is not supported$"
 error_bios db "BIOS error$"
 
 vbe_info:
-.signature db "VBE2"
+.signature db "VESA"
 .version dw 0
 .oem dd 0
 .capabilities dd 0
